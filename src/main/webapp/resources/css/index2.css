@@ -1,0 +1,414 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body.first1::before{
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#first{ 
+			
+			list-style:none; 
+			position:absolute;
+			
+  			top:30px;
+  			right:0;
+  			left:0;
+  			height:80px;
+			padding:4px 500px;
+			margin:0;
+			background:/* rgba(255,0,0,1) */black;
+			border:1px solid silver;
+			border-right: 1px solid silver;
+			
+			
+		}
+		
+	#first li
+			{ 
+			float:right; 
+			position:relative; 
+			margin:35px 30px auto;
+			padding:0;
+			border-left: 2px solid silver;
+			white-space : nowrap; 
+			text-overflow : ellipsis; 
+			
+			}
+			
+			#first li a{ 
+			display:block; 
+			font-family:"µ¸¿ò";
+			font-weight:bold;
+			font-size:14px;
+			padding:6px 6px;
+			margin:0;
+			color:white;
+			text-decoration:none; 
+			text-shadow:0 1px 1px rgba(0,0,0,0.3);
+			
+		
+		
+		}
+		
+		#first li:hover>a{
+			background:none;
+			color:#666699;
+			margin:0;
+			padding:5px;
+				
+		}
+		
+		#first ul{
+			list-style:none;
+			font-weight:bold;
+			margin:0;
+			padding:0;
+			position:absolute;
+			left:-10px;
+			top:45px;
+			width:124px;
+			background:silver;
+			text-align:center;
+			font-size:6px;
+			opacity:0;
+			z-index:1;
+		}
+		#first ul li{
+			float:none;
+			margin:0;
+			padding:0;
+			font-size:6px;
+			border-bottom: 1px solid rgba(0,0,0,0.15);
+		}
+		#first ul a{
+			font-weight:bold;
+			color:white;
+		}
+		#first ul li:hover a{
+			background:#0000ff;
+			color:#FFCC99;
+			font-weight:bold;
+		}
+		#first li:hover ul{
+			opacity:1; 
+		}
+		#first li:hover ul li{
+			height:35px;
+			overflow:visible; 
+			padding:0px;
+		}
+		.text1{
+		position:absolute;
+		top:100px;
+		left:650px;
+		 height: 80px;
+ 		color:white;
+ 		white-space : nowrap; 
+		text-overflow : ellipsis;
+ 		}
+	
+		.text2{
+		position:absolute;
+		top:500px;
+		left:195px;
+		color:white;
+		}
+		
+		.text3{
+		position:absolute;
+		top:500px;
+		left:560px;
+		color:white;
+		}
+		.text4{
+		position:absolute;
+		top:500px;
+		left:890px;
+		color:white;
+		}
+	
+	.text5{
+		position:absolute;
+		top:500px;
+		left:1260px;
+		color:white;
+		}
+		
+		.text6{
+	
+			position:absolute;
+			top:10px;
+			left:1210px;
+			font-size:10px;
+			color:black;
+			text-decoration:none;
+			white-space : nowrap; 
+		overflow : hidden; 
+		 text-overflow : ellipsis; 
+}
+.text7{
+	position:absolute;
+			top:10px;
+			left:1250px;
+			font-size:10px;
+			color:black;
+			text-decoration:none;
+			white-space : nowrap; 
+		overflow : hidden; 
+		 text-overflow : ellipsis; 
+}
+
+.text8{
+	
+	position:absolute;
+			top:10px;
+			left:1300px;
+			font-size:10px;
+			color:black;
+			text-decoration:none;
+			white-space : nowrap; 
+		overflow : hidden; 
+		 text-overflow : ellipsis; 
+}
+
+.text8_1{
+	
+	position:absolute;
+			top:10px;
+			left:1380px;
+			font-size:10px;
+			color:black;
+			text-decoration:none;
+			white-space : nowrap; 
+		overflow : hidden; 
+		 text-overflow : ellipsis; 
+}
+		
+.text9{
+		position:absolute;
+		top:650px;
+		text-decoration:none;
+		
+		}
+
+
+
+
+.text10{
+			position:absolute;
+			top:950px;
+			left:700px;
+			font-size:15px;
+			color:black;
+		white-space : nowrap; 
+		overflow : hidden; 
+		 text-overflow : ellipsis; 
+			
+		}
+
+
+
+
+		
+.text11{
+		position:absolute;
+			top:1820px;
+			left:250px;
+			font-size:15px;
+			color:black;
+		white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+
+}
+
+
+
+.text12{
+	position:absolute;
+	top:1810px;
+	left:60px;
+	font-size:40px;
+	color:black;
+	text-decoration: none;
+	white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+	
+	
+	}
+	
+.text13{
+	position:absolute;
+	top:200px;
+	right:0;
+	left:140px;
+	font-size:20px;
+	color:white;
+	text-decoration: none;
+	white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+}
+
+.text14{
+	
+	position:absolute;
+	top:200px;
+	right:0;
+	left:490px;
+	font-size:20px;
+	color:white;
+	text-decoration: none;
+	white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+	
+	
+}
+
+.text15{
+	
+	position:absolute;
+	top:200px;
+	right:0;
+	left:870px;
+	font-size:20px;
+	color:white;
+	text-decoration: none;
+	white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+	
+}
+
+.text16{
+	
+	position:absolute;
+	top:200px;
+	right:0;
+	left:1220px;
+	font-size:20px;
+	color:white;
+	text-decoration: none;
+	white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+	
+}
+
+.text17{
+	position:absolute;
+	top:1550px;
+	right:0;
+	left:0px;
+	font-size:20px;
+	color:black;
+	font-weight: bold;
+	white-space : nowrap; 
+	text-overflow : ellipsis; 
+}
+
+
+.text18{
+	position:absolute;
+	top:120px;
+	left:145px;
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+	white-space : nowrap; 
+	overflow : hidden; 
+	text-overflow : ellipsis; 
+}
+
+.text19{
+	position:absolute;
+	top:120px;
+	left:480px;
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+	white-space : nowrap; 
+	overflow : hidden; 
+	text-overflow : ellipsis; 
+}
+
+.text20{
+	position:absolute;
+	top:120px;
+	left:830px;
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+	white-space : nowrap; 
+	overflow : hidden; 
+	text-overflow : ellipsis; 
+}
+
+.text21{
+	position:absolute;
+	top:120px;
+	left:1190px;
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+	white-space : nowrap; 
+	overflow : hidden; 
+	text-overflow : ellipsis; 
+}
+
+
+.color{
+	position:absolute;
+	top:120px;
+  	right:0;
+  	left:0;
+	height:650px;
+	width:100%;
+	background-color:black;
+	margin:0px;	
+	
+	
+}
+
+.color1{
+	position:absolute;
+	top:1210px;
+  	right:0;
+  	left:0;
+	height:300px;
+	width:100%;
+	background-color:aqua;
+	margin:0px;	
+	border: 1px solid siver;
+	
+	
+}
+
+.color2{
+	position:absolute;
+	top:0;
+  	right:0;
+  	left:0;
+	height:30px;
+	width:100%;
+	background-color:black;
+	margin:0px;	
+	
+}
+
+
+
+
+
+
+	

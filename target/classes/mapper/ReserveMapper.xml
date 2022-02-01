@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="com.movie.user.service.dao.ReserveDAO">
+
+	<select id="getAllReserve" resultType="reserveVO"> 
+		SELECT username
+			 , mvname
+		     , theater
+		     , month
+		     , day
+		     , mvtime
+		     , mvseat
+		     , mvprice
+		  FROM RESERVE11
+		
+		  
+	</select> 
+ 
+ 	<select id = "getPayConfirm" resultType = "reserveVO">
+ 		SELECT username
+			 , mvname
+		     , theater
+		     , month
+		     , day
+		     , mvtime
+		     , mvseat
+		     , mvprice
+		  FROM RESERVE11
+		  WHERE username = #{username}
+		  	AND mvname = #{mvname}
+	 		AND	theater = #{theater}
+	 		AND	month = #{month}
+	 		AND	day = #{day}
+	 		AND mvtime = #{mvtime}
+	 		AND	mvseat = #{mvseat}
+ 	</select>
+ 
+ 	<select id = "getReserve" resultType = "reserveVO">
+ 		SELECT username
+			 , mvname
+		     , theater
+		     , month
+		     , day
+		     , mvtime
+		     , mvseat
+		     , mvprice
+		  FROM RESERVE11
+		  WHERE username = #{username}
+ 	</select>
+ 
+ 	<insert id = "insertReserve">
+ 		INSERT INTO RESERVE11 (username,mvname,theater,month,day,mvtime)
+ 		VALUES (#{username},#{mvname},#{theater},#{month},#{day},#{mvtime})
+ 	</insert>
+ 
+ 	<update id ="updateSeat">
+ 		UPDATE RESERVE11 
+ 		SET  mvseat = #{mvseat}
+ 			,mvprice = #{mvprice}
+ 		WHERE username=#{username}
+ 		AND mvname = #{mvname}
+ 		AND theater = #{theater}
+ 		AND month = #{month}
+ 		AND day = #{day}
+ 		AND mvtime = #{mvtime}
+ 	</update>
+ 	
+ 	<delete id ="deleteReserve">
+ 		DELETE FROM RESERVE11
+ 		WHERE username = #{username}
+ 		AND	mvname = #{mvname}
+ 		AND	theater = #{theater}
+ 		AND	month = #{month}
+ 		AND	day = #{day}
+ 		AND mvtime = #{mvtime}
+ 		AND	mvseat = #{mvseat}
+ 		
+ 	</delete>
+    
+</mapper>
+
+
+
+
+
+
+

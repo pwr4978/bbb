@@ -1,0 +1,167 @@
+@charset "EUC-KR";
+
+#first{ 
+			
+			list-style:none; 
+			position:absolute;
+  			top:30px;
+  			right:0;
+  			left:0;
+  			height:80px;
+			padding:4px 500px;
+			margin:0;
+			background:/* rgba(255,0,0,1) */white;
+			border:1px solid silver;
+			border-right: 1px solid silver;
+			
+			
+		}
+		
+	#first li
+			{ 
+			float:right; 
+			position:relative;
+			margin:35px 20px 25px;
+			padding:0;
+			border-left: 2px solid silver;
+			white-space : nowrap; 
+			text-overflow : ellipsis; 
+			z-index:1;
+			
+			}
+			
+			#first li a{ 
+			display:block; 
+			font-family:"µ¸¿ò";
+			font-weight:bold;
+			font-size:14px;
+			padding:6px 6px;
+			margin:0;
+			color:black;
+			text-decoration:none; 
+			text-shadow:0 1px 1px rgba(0,0,0,0.3);
+			
+		
+		
+		}
+		
+		#first li:hover>a{
+			background:none;
+			color:#666699;
+			margin:0;
+			padding:5px;
+				
+		}
+		
+		#first ul{
+			list-style:none;
+			font-weight:bold;
+			margin:0;
+			padding:0;
+			position:absolute;
+			left:-10px;
+			top:45px;
+			width:124px;
+			background:silver;
+			text-align:left;
+			font-size:6px;
+			opacity:0;	
+		}
+		#first ul li{
+			float:none;
+			margin:0;
+			padding:0;
+			font-size:6px;
+			border-bottom: 1px solid rgba(0,0,0,0.15);
+		}
+		#first ul a{
+			font-weight:bold;
+			color:white;
+		}
+		#first ul li:hover a{
+			background:#0000ff;
+			color:#FFCC99;
+			font-weight:bold;
+		}
+		#first li:hover ul{
+			opacity:1; 
+		}
+		#first li:hover ul li{
+			height:35px;
+			overflow:visible; 
+			padding:0px;
+		}		
+		
+		
+		
+.text1{
+	
+			position:absolute;
+			top:10px;
+			left:1210px;
+			font-size:10px;
+			color:black;
+			text-decoration:none;
+			position: absolute;
+}
+.text2{
+	position:absolute;
+			top:10px;
+			left:1250px;
+			font-size:10px;
+			color:black;
+			text-decoration:none;
+			position:absolute;
+}
+
+.text3{
+	
+	position:absolute;
+			top:10px;
+			left:1300px;
+			font-size:10px;
+			color:black;
+			text-decoration:none;
+			position: absolute;
+}
+
+.text11{
+		position:absolute;
+			top:1820px;
+			left:250px;
+			font-size:15px;
+			color:black;
+		white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+
+}
+
+
+
+.text12{
+	position:absolute;
+	top:1810px;
+	left:60px;
+	font-size:40px;
+	color:black;
+	text-decoration: none;
+	white-space : nowrap; 
+		overflow : hidden; 
+		text-overflow : ellipsis; 
+	
+	
+	}
+	
+	.image{
+position:absolute;
+top:1800px;
+left:0;
+width:100%;
+height:20%;
+padding:0;
+border:1px solid black;
+text-align:center;
+font-size:10px;
+color:black;
+}
